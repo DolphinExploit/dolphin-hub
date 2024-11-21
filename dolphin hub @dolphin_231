@@ -53,3 +53,10 @@ local Window = Rayfield:CreateWindow({
     end,
  })
 
+ local Button = MainTab:CreateButton({
+    Name = "Arsenal V1 (OP)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AdvanceFTeam/Our-Scripts/main/AdvanceTech/Arsenal_V1.6.lua"))()
+
+    end,
+ })
